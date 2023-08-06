@@ -224,16 +224,11 @@
   max-width: 306px;
 }
 
-.comment-item:last-child{
-  margin-right: 0;
-}
-
 @media (max-width:992px) {
   .comment-item{
       max-width: 336px;
       margin-right: 0;
       margin-bottom: 24px;
-      margin: 0 auto;
 
   }
 }
@@ -242,7 +237,8 @@
   .comment-item{
       max-width: 348px;
       margin-bottom: 16px;
-      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
   }
 }
 .name{
