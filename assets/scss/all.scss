@@ -1,5 +1,27 @@
-@import './layout/header.scss';
+//變數
+@import './utils/variable';
+
+//base
+@import './base/base';
+@import './base/reset';
+@import './base/typography';
+
+//utils
+@import './utils/flex';
+@import './utils/grid';
+@import './utils/helper';
+@import './utils/spacing';
+
+//component
+
+//外部icon
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+
+
+//layout
+@import './layout/navbar.scss';
 @import './layout/footer.scss';
 
-
+//page
 @import './pages/index.scss';
+@import './pages/product';

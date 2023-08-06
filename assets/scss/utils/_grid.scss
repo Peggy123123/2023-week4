@@ -1,0 +1,40 @@
+.row{
+    margin-left: 0px;
+    margin-left: 0px;
+}
+
+.col-3{
+    width: calc(100%/12 * 3);
+}
+
+.col-4{
+    width: calc(100%/12 * 4);
+}
+
+.col-6{
+    width: calc(100%/12 * 6);
+}
+
+.col-12{
+    width:100%;
+}
+
+@media (max-width:992px) {
+    .col-md-6{
+        width: calc(100% / 12 * 6);
+    }
+
+    .col-md-10{
+        width: calc(100% / 12 * 10);
+    }
+
+    .col-md-12{
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}

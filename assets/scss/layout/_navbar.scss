@@ -1,0 +1,46 @@
+@media (max-width:767px) {
+  .navbar-wrap{
+      flex-direction: column ;
+          /* 移除左右 padding 
+          再加入 max-width: 100%; 讓導覽列能變為滿版 */
+      padding-right: 0;
+      padding-left: 0;
+      max-width: 100%;
+  }
+}
+
+.navbar-logo{
+  width: 80px;
+}
+@media (max-width:767px) {
+  .navbar-logo img{
+    margin-left: 15px;
+  }
+}
+
+
+.navbar-item{
+  padding-left:32px;
+}
+
+@media (max-width:767px) {
+  .navbar-item{
+      width: 50%;
+      border-top: 1px solid #fff;
+      padding: 0;
+  }
+}
+
+.navbar-link{
+  color: $white;
+}
+
+@media (max-width:767px) {
+  .navbar-link{
+    padding: 12px 61px;
+  }
+}
+
+.navbar-link:hover{
+  color: $text-hover;
+}

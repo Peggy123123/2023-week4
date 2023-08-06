@@ -1,0 +1,51 @@
+h1,h2,h3,h4,p{
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 64px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 80px;
+}
+
+@media (max-width:767px) {
+    h2{
+        padding-top: 40px;
+        font-size: 24px;
+    }
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.fs-5{
+    font-size: 20px;
+}
+
+.fs-6{
+    font-size: 24px;
+    }
+
+.fs-9{
+font-size: 36px;
+}
+
+.fs-12{
+    font-size: 48px;
+}
+
+@media (max-width:767px) {
+    .fs-sm-4{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,59 @@
+//背景顏色
+.bg-primary{
+    background-color: $primary;
+}
+
+.bg-secondary{
+    background-color: $secondary;
+}
+
+.bg-light{
+    background-color: $light;
+}
+
+//文字顏色
+.text-primary{
+    color: $primary;
+}
+
+.text-secondary{
+    color: $secondary;
+}
+
+.text-white{
+    color: $white;
+}
+
+.text-grey-1{
+    color: #707070;
+}
+
+//字體
+.text-bold{
+    font-weight: bold;
+}
+
+.text-900{
+    font-weight: 900;
+}
+
+// 文字對齊
+.text-center{
+    text-align: center;
+}
+
+.text-end{
+    text-align: end;
+}
+
+.d-block{
+display: block;
+}
+
+//border
+
+@media (max-width:767px) {
+    .border-sm-right{
+        border-right: 1px solid #fff;
+    }
+}

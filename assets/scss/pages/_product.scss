@@ -1,0 +1,170 @@
+.item-bar{
+    max-width: 1296px;
+}
+
+.item-bar li{
+    width: 33.333%;
+    border: 1px solid #DCDCDC;
+}
+
+.product .col-3{
+    width: 23.611%;
+}
+
+.item a{
+    color: #000;
+}
+
+@media (max-width:992px) {
+    .item a{
+        font-size: 16px;
+        padding: 16px 48px;
+    }
+}
+
+@media (max-width:767px) {
+    .item a{
+    padding:16px 12px ;
+    }
+}
+.active{
+    border-bottom:8px solid $secondary;
+}
+
+.item-bar a:hover {
+    border-bottom:8px solid $secondary;
+}
+
+.product-header1{
+    background-image: url(../images/product-header-1.png);
+    height:296px;
+    background-size: cover;
+}
+
+.product-header2{
+    background-image: url(../images/product-header-2.png);
+    height: 296px;
+    background-size: cover;
+}
+
+@media (max-width:992px) {
+    .product-header1{
+        background-image: url(../images/product-header-sm-1.png);
+    }
+    .product-header2{
+        background-image: url(../images/product-header-sm-2.png);
+    } 
+}
+
+@media (max-width:767px) {
+    .product-header1 , .product-header2{
+        height: 136px;
+    }
+}
+
+.product h2{
+    font-size: 42px;
+    padding-bottom: 0;
+}
+
+.product h3{
+    font-size: 32px;
+    padding-bottom: 32px;
+    margin: 0;
+    font-weight: normal;
+}
+
+@media (max-width:767px) {
+    .product h2{
+        font-size: 24px;
+        padding-top: 40px;
+    }
+    
+    .product h3{
+        font-size: 24px;
+        padding-bottom: 24px;
+    }
+}
+
+.product-price{
+    color: #AA0601;
+    font-weight: bold;
+}
+
+.product-color .color-1{
+    width: 24px;
+    height: 24px;
+    background-color:#5F3E2D ;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.product-color .color-2{
+    width: 24px;
+    height: 24px;
+    background-color:#B75929 ;
+    border-radius: 4px;
+}
+
+.page li{
+    border: 1px solid #555555;
+    border-right:none;
+}
+
+.page li:last-child {
+    border-right: 1px solid #555555;
+}
+
+.page a{ 
+    color: #555555;
+    padding: 12px 15px;
+    align-items: center;
+    display: block;
+}
+
+.change-pages a{
+    padding:12px;
+}
+
+.page a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+@media (max-width:767) {
+    .mb-sm-64{
+        margin-bottom: 64px;
+    }
+}
+
+.product .col-4{
+    width: 32.098%;
+}
+
+@media (max-width:768px) {
+    .product .col-md-6{
+        width: 48.276%;
+    }
+}
+
+@media (max-width:767px) {
+    .product .col-md-6{
+        width: 100%;
+    }
+}
+
+//圖片hover效果
+
+.card img{
+    overflow: hidden;
+
+}
+
+.card>li>a{
+    transform: scale(1);
+    transition: all 1s ease-out;
+}
+
+.card>li>a:hover{
+    transform: scale(1.2);
+}
