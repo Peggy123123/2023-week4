@@ -78,6 +78,18 @@
     margin-right: 24px;
 }
 
+//margin 左
+
+.ml-12{
+    margin-left: 48px;
+}
+
+@media (max-width: 767px) {
+    .ml-md-0 {
+        margin-left: 0;
+    }
+}
+
 //padding 上
 
 .pt-4{
